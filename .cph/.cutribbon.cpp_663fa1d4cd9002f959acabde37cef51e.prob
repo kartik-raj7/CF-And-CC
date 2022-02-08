@@ -1,0 +1,1 @@
+{"name":"Local: cutribbon","url":"c:\\Users\\karti\\Desktop\\cf & cc\\cutribbon.cpp","tests":[{"id":1641046550281,"input":"5 5 3 2\n","output":"2"},{"id":1641046768736,"input":"7 5 5 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\cutribbon.cpp","group":"local","local":true}

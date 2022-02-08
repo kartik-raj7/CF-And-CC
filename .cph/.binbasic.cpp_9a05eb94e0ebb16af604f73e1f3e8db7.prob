@@ -1,0 +1,1 @@
+{"name":"Local: binbasic","url":"c:\\Users\\karti\\Desktop\\cf & cc\\binbasic.cpp","tests":[{"id":1643982375673,"input":"2\n3 0\n110\n6 1\n101100\n","output":"NO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\binbasic.cpp","group":"local","local":true}

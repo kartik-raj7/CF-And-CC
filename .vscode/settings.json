@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iomanip": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp"
+    }
+}
