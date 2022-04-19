@@ -5,6 +5,8 @@
         "iomanip": "cpp",
         "set": "cpp",
         "algorithm": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "iostream": "cpp",
+        "xstring": "cpp"
     }
 }
