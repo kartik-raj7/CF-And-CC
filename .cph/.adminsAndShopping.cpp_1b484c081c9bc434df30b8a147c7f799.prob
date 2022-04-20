@@ -1,0 +1,1 @@
+{"name":"Local: adminsAndShopping","url":"c:\\Users\\karti\\Desktop\\cf & cc\\adminsAndShopping.cpp","tests":[{"id":1650469460859,"input":"3\n2 3\n3 3\n4 2\n1 2 3 4\n1 6\n2","output":"2\n4\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\adminsAndShopping.cpp","group":"local","local":true}
