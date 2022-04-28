@@ -1,0 +1,1 @@
+{"name":"Local: notadjmat","url":"c:\\Users\\karti\\Desktop\\cf & cc\\notadjmat.cpp","tests":[{"id":1651149969772,"input":"3\n1\n2\n3\n","output":"1\n-1\n2 9 7\n4 6 3\n1 8 5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\notadjmat.cpp","group":"local","local":true}
