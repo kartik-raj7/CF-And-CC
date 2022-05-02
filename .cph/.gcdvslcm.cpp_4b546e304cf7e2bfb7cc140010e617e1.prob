@@ -1,0 +1,1 @@
+{"name":"Local: gcdvslcm","url":"c:\\Users\\karti\\Desktop\\cf & cc\\gcdvslcm.cpp","tests":[{"id":1651479860466,"input":"5\n4\n7\n8\n9\n10\n","output":"1 1 1 1\n2 2 2 1\n2 2 2 2\n2 4 2 1\n3 5 1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\gcdvslcm.cpp","group":"local","local":true}
