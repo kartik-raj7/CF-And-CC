@@ -22,13 +22,34 @@ int main(){
   string a;
   string b;
   cin>>a>>b;
-  if(count(b.begin(),b.end(),b[0])==b.length()&&b.length()!=1){
-      cout<<1<<endl;
-  }
-  else if(a.length()==1&&b.length()==1){
-      cout<<2<<endl;
-  }
-  else cout<<-1<<endl;
+  int n =b.size();
+        int m=a.size();
+        long long ans;
+ 
+        if (n==1 && b[0]=='a') ans=1;
+        else if (b.find('a')!=b.npos) ans=-1;
+        else ans=pow(2,a.length());
+ 
+        cout<<ans<<endl;
+// int a1 = count(a.begin(),a.end(),'a');
+// int b1 = count(b.begin(),b.end(),'a');
+// if(a=="a"){
+//     puts("1");
+// }
+// else if(b1==0){
+//      cout<<pow(2,a1)<<endl;
+// }
+// else if(b.length()>1&&b1>=1){
+//     puts("-1");
+// }
+
+//   if(count(b.begin(),b.end(),'a')==1&&b.length()==1){
+//       puts("1");
+//   }
+//   else if((count(b.begin(),b.end(),'a')==1||count(b.begin(),b.end(),'a')>1)&&b.length()>1){
+//       puts("-1");
+//   }
+//   else cout<<pow(2,a.length())<<endl;
     }
         return 0;
         }
