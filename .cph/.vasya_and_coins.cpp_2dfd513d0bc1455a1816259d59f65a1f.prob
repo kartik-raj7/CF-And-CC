@@ -1,0 +1,1 @@
+{"name":"Local: vasya_and_coins","url":"c:\\Users\\karti\\Desktop\\cf & cc\\vasya_and_coins.cpp","tests":[{"id":1651746001549,"input":"5\n1 1\n4 0\n0 2\n0 0\n2314 2374\n","output":"4\n5\n1\n1\n7063\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\vasya_and_coins.cpp","group":"local","local":true}
