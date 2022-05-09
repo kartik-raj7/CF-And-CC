@@ -1,0 +1,1 @@
+{"name":"Local: dominopilling","url":"c:\\Users\\karti\\Desktop\\cf & cc\\dominopilling.cpp","tests":[{"id":1651921188243,"input":"2 4\n","output":"4"},{"id":1651921194357,"input":"3 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\dominopilling.cpp","group":"local","local":true}
