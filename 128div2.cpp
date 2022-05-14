@@ -28,12 +28,11 @@ map<string,string>mp;
 test{
 int l1,r1,l2,r2;
 cin>>l1>>r1>>l2>>r2;
-if(l1==r1&&l2==r2&&l1!=l2){
-     cout<<l1+l2<<endl;
+if((l2>=l1&&l2<=r1)||(l1>=l2&&l1<=r2)){
+     cout<<max(l1,l2)<<endl;
 }
-else if(l1==r1==l2==r2){
-    cout<<l1<<endl;
+else 
+    cout<<l1+l2<<endl;
 }
 
-}
 }
