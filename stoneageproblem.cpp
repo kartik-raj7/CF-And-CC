@@ -28,23 +28,46 @@ int main(){
 map<string,string>mp;
 ll n,q;
 cin>>n>>q;
-ll arr[n];
+ll arr[n];ll sum=0;
 loop(i,0,n){
  cin>>arr[i];}
+ for(auto s:arr){
+  sum+=s;
+ }
+ bool flag = false;
+set<ll> sets;
+ll value=0;
  while(q--){
 ll k,l,m;
-cin>>k;ll sum=0;
+cin>>k;
 if(k==1){
     cin>>l>>m;
-    arr[l-1]=m;
-    ll x=accumulate(arr,arr+n,0);
-cout<<x<<endl;
+    l=l-1;
+    ll chg=0;
+    if(flag){
+        if(sets.find(l)!=sets.end()){
+            chg=m-arr[l];
+        }
+        else {chg = m-value;}
+    arr[l]=m;
+    sets.insert(l);
 }
 else{
-   cin>>l;
-   fill(arr,arr+n,l);
-   cout<<l*n<<endl;
+   chg = m-arr[l];
+   arr[l]=m;
 }
+sum+=chg;
+cout<<sum<<endl;
 
  }
+ else {
+     ll m;
+     cin>>m;
+     sum=m*n;
+     flag = false;
+     value = m;
+     sets.clear();
+     cout<<sum<<endl;
+ }
+}
 }
