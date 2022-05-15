@@ -71,3 +71,52 @@ cout<<sum<<endl;
  }
 }
 }
+#include<bits/stdc++.h>
+ 
+using namespace std;
+ 
+long long n,q;
+long long t;
+long long m,x;
+long long sum;
+map<long,long> mm;
+long long point;
+ 
+int main()
+{
+	cin>>n>>q;
+	for(int i=1;i<=n;i++)
+	{
+		long long tmp;
+		cin>>tmp;
+		sum+=tmp;
+		mm[i]=tmp;
+	}
+	for(int i=1;i<=q;i++)
+	{
+		cin>>t;
+		if(t==1)
+		{
+			cin>>m>>x;
+			if(mm[m])
+			{
+				sum+=(x-mm[m]);
+				mm[m]=x;
+			}
+			else
+			{
+				sum+=(x-point);
+				mm[m]=x;
+			}
+			cout<<sum<<endl;
+		}
+		else if(t==2)
+		{
+			cin>>x;
+			mm.clear();
+			point=x;
+			sum=x*n;
+			cout<<sum<<endl;
+		}
+	}
+}
