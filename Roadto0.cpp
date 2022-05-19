@@ -4,7 +4,6 @@
 #include <vector>
 #include <set>
 #include <iostream>
-#include <math.h>
 #include <algorithm>
 #include <numeric>
 #include <vector>
@@ -12,7 +11,6 @@
 #include <limits>
 #define pb push_back
 #include <map>
-#include <math.h>
 #include <unordered_set>
 #include <string.h>
 #include <string>
