@@ -26,31 +26,44 @@ int main(){
       int n;
       cin>>n;int c=0;int k=0;
       int arr[n];
-      vector<int> v;int cpy1[n],cpy2[2];
+      vector<pair<ll,ll>> v;int cpy1[n],cpy2[2];
       loop(i,0,n){
           cin>>arr[i];
-          cpy1[i]=arr[i];
       }
       int brr[n];
       loop(i,0,n){
           cin>>brr[i];
-          cpy2[i]=arr[i];
       }
-      sort(cpy1,cpy1+n);
-      sort(cpy2,cpy2+n);
+    //   sort(cpy1,cpy1+n);
+    //   sort(cpy2,cpy2+n);
       int i, j, mini;
     for (i = 0; i < n-1; i++)
     {
-        mini = i;
-        for (j = i+1; j < n; j++)
-        if (arr[j] < arr[mini])
-            mini = j;c++;
-        swap(arr[mini],arr[i]);
-        swap(brr[mini],brr[i]);
-    }
+        // mini = i;
+        for (j = i+1; j < n; j++){
+       if(arr[i]>arr[j]){
+        swap(arr[i],arr[j]);
+        swap(brr[i],brr[j]);
+        v.pb({i,j});}
+        else if(arr[i]==arr[j]&&brr[i]>brr[j]){
+        swap(arr[i],arr[j]);
+        swap(brr[i],brr[j]);
+        v.pb({i,j});
+        }
+    }}
     for(int i=0;i<n-1;i++){
         if(brr[i+1]<brr[i]){
            k=-1;break;
         }
-        
     }
+    if(k==-1){
+        puts("-1");
+    }
+    else{
+        cout<<v.size()<<endl;
+        for(auto i:v){
+           cout<<i.second+1<<" "<<i.first+1<<endl;
+        }
+    }
+}
+}
