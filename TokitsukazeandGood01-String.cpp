@@ -25,35 +25,26 @@ int main(){
    test{
       ll n;
       cin>>n;
+      string str;
+      int z=0,o=0;
       map<int,int>mp;int c2=0;
       int min = 0;int c=0;
-      ll arr[n];int sum=0;
-      ll ans=n+1;
-      loop(i,0,n){
-          cin>>arr[i];
-          mp[arr[i]]++;
-         
+      ll arr[n];int maxi=0;
+      cin>>str;
+      for(int i=0;i<n;i+=2){
+          if(str[i]!=str[i+1])c++;
       }
-      loop(i,0,n){
-          if(arr[i]==0){
-              c++;
-          }
-      }
-    //   if(c==n){
-    //       cout<<n+1<<endl;
+    //   loop(i,0,str.length()-1){
+    //       if(str[i]==str[i+1]){
+    //            c++;
+    //       }
+    //       else{
+    //           if(c%2!=0){
+    //               maxi=max(maxi,c);
+    //           }
+    //           else c=0;maxi=0;
+    //       }
     //   }
-    //   else if(c){
-    //       cout<<n-c<<endl;
-    //   }
-    //   else cout<<n<<endl;
-      for(auto i:mp){
-          if(i.second>1){
-            c2=1;
-            }}
-      if(c>0){
-          cout<<n-c<<endl;
-      }
-      else cout<<n+1-c2<<endl;
-
+     cout<<c<<endl;
     }
       }
