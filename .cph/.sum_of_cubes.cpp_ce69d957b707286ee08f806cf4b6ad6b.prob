@@ -1,0 +1,1 @@
+{"name":"Local: sum_of_cubes","url":"c:\\Users\\karti\\Desktop\\cf & cc\\sum_of_cubes.cpp","tests":[{"id":1653841601498,"input":"7\n1\n2\n4\n34\n35\n16\n703657519796\n","output":"NO\nYES\nNO\nNO\nYES\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\sum_of_cubes.cpp","group":"local","local":true}
