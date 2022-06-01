@@ -19,33 +19,33 @@
 #define py puts("YES");
 #define test ll t; cin>>t; while(t--)
 #define ll long long
-#define loop(i,l,h) for(ll i=(l);i<(h);i++)
+#define loop(i,l,h) for(ll i=(l);i<=(h);i++)
 using namespace std;
 int main(){
    ll n;
    cin>>n;
-   ll arr[n];
-   ll cpy[n];
-   loop(i,0,n){
+   ll arr[100005];
+   ll cpy[100005];
+   for(int i=1;i<=n;i++){
        cin>>arr[i];
        cpy[i]=arr[i];
+       arr[i]=arr[i]+arr[i-1];
    }
-   sort(cpy,cpy+n);
-     test{
+   sort(cpy+1,cpy+n+1);
+   for(int i=1;i<=n;i++){
+       cpy[i]=cpy[i]+cpy[i-1];
+   }
+     int t;
+     cin>>t;
+     while(t--){
          ll q,l,r;
-         cin>>q;ll sum=0;
-         cin>>l>>r;
+         cin>>q>>l>>r;
          if(q==1){
-             for(int i=l-1;i<=r-1;i++){
-                 sum+=arr[i];
+             cout<<arr[r]-arr[l-1]<<endl;
              }
-         }
          else{
-             for(int i=l-1;i<=r-1;i++){
-                 sum+=cpy[i];
-             }
+             cout<<cpy[r]-cpy[l-1]<<endl;
          }
-         cout<<sum<<endl;
         
      }
     }
