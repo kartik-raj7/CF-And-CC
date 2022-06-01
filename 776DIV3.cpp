@@ -23,29 +23,24 @@
 using namespace std;
 int main(){
    test{
-      char ch;
-      string str;
-      cin>>str;
-      cin>>ch;
-      int n = str.length();
-      bool flag = false;
-      int k = (n+1)/2;
-      for(int i=0;i<n;i++){
-          if(ch==str[i]&&i%2==0){
-              flag = true;break;
-          }
-      }
-      if(flag){
-          py;
-      }
-      else pn;
-    //   cout<<k<<endl;
-    //   if(str[k-1]==ch){
-    //       py;
-    //   }
-    //   else pn;
-
-      
-
+    ll l,r,x;
+    cin>>l>>r>>x;
+    ll temp=0;
+    ll ans=0;
+    if(r/x!=l/x) cout<<x-1+(r-x+1)/x<<endl;
+		else if(r<x) cout<<r<<endl;
+		else cout<<r/x+r%x<<endl;
+    // if(r%x==0){
+    //     ans = (r-1)/x+(r-1)%x;
+    //     cout<<ans<<endl;
+    // }
+    // else{
+    //     ans=r/x+r%x;
+    //     cout<<ans<<endl;
+    // for(int i=l;i<=r;i++){
+    //     temp=i/x+i%x;
+    //     ans= ans>temp?ans:temp;
+    // }
+    // cout<<ans<<endl;
+    }
    }
-}
