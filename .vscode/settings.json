@@ -9,6 +9,7 @@
         "iostream": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "cmath": "cpp"
     }
 }

@@ -26,41 +26,76 @@ int main(){
     ll n;
     cin>>n;
     ll arr[n];
-    int odd=0,even=0;
-    int c=0;
+    ll odd=0,even=0;
+    ll c=INT_MAX;
     loop(i,0,n){
         cin>>arr[i];
         if(arr[i]%2!=0)odd++;
+        else even++;
     }
-    if(c==n){
+    if(odd==n){
         cout<<0<<endl;
     }
-    else if(odd>even){
-        cout<<odd-even<<endl;
-    }
-    else if(odd==even){
-        cout<<odd<<endl;
-    }
-    else if(even==n){
-        ll sum=0;
-        loop(i,0,n){
-            sum +=arr[i];
-        }
-        while(sum%2==0){
-            sum/=2;c++;
-        }
-        c+=n/2;
-        cout<<c<<endl;
+    // else if(odd>even){
+    //     cout<<odd-even<<endl;
+    // }
+    // else if(odd==even){
+    //     cout<<odd<<endl;
+    else if(even>0&&odd>0){
+        cout<<even<<endl;
     }
     else{
-        ll sum=0;
-         loop(i,0,n){
-            sum +=arr[i];
+    for(auto x:arr){
+        ll ans=0;
+        while(x%2==0){
+            ans++;
+            x/=2;
         }
-        while(sum%2==0){
-            sum/=2;c++;
-        }
-        cout<<c+(even-odd)<<endl;
+        c = min(ans,c);
+    }
+    cout<<c+n-1<<endl;}
+    // else{
+    //     ll o[n],e[n];
+    //     int f=0,r=0;
+    //     loop(i,0,n){
+    //         if(arr[i]%2==0){
+    //             e[f++]=arr[i];
+    // }
+    // else  {o[r++]=arr[i];}
+    //       }
+    //  sort(e,e+f);
+    //  if(odd==0){
+    //  while(e[0]%2==0){
+    //     e[0]/=2;c++;
+    //   }
+    //   cout<<c+(n/2+1)<<endl;
+    // }
+    // else{
+    //     while(e[0]%2==0){
+    //     e[0]/=2;c++;
+    //   }
+    //   cout<<odd+c+(even-odd)/2<<endl;
+    // }}
+    // else if(even==n){
+    //     ll sum=0;
+    //     loop(i,0,n){
+    //         sum +=arr[i];
+    //     }
+    //     while(sum%2==0){
+    //         sum/=2;c++;
+    //     }
+    //     c+=n/2;
+    //     cout<<c+1<<endl;
+    // }
+    // else{
+    //     ll sum=0;
+    //      loop(i,0,n){
+    //         sum +=arr[i];
+    //     }
+    //     while(sum%2==0){
+    //         sum/=2;c++;
+    //     }
+    //     cout<<c+(even-odd)+1<<endl;
         // ll o[n],e[n];
         // int f=0,r=0;
         // loop(i,0,n){
@@ -68,6 +103,4 @@ int main(){
         //         e[f++]=arr[i];
         //     }
         }
-    }
-
     }
