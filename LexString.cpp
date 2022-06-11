@@ -31,10 +31,52 @@ int main(){
     sort(str1.begin(),str1.end());
     sort(str2.begin(),str2.end());
     map<int,int>mp,cp;
-    loop(i,1,n){
-    mp[str1[i]]++;
+    string sol;
+    int i=0,j=0;
+    int c1=0,c2=0;
+    vector<char>v;
+    while(i<n&&j<m){
+         if(str1[i]<str2[j]&&c1<q){
+            sol+=str1[i];
+            i++;
+            c1++;
+            c2=0;
+           }
+           else if(c2<q){
+               sol+=str2[j];
+               j++;
+               c2++;
+               c1=0;
+           }
+           else
+             {
+                 sol+=str1[i];
+                 i++;
+                 c2=0;
+             }
+    //      else{
+    //         sol+=str2[j];
+    //         j++;
+    //         c2=1;
+    //         c1=0;
+    //        }
+    //      }
+    //      else{
+    //        if(c2<q){
+    //         sol+=str2[j];
+    //         j++;
+    //         c2++;
+    //         c1=0;
+    //        }
+    //      else{
+    //         sol+=str1[i];
+    //         i++;
+    //         c2=1;
+    //         c1=0;
+    //        }
+    //      }
+    // }
+    //      cout<<sol<<endl;
     }
-    loop(i,0,m){
-        cp[str2[i]]++;
-    }
+    cout<<sol<<endl;}
 }
