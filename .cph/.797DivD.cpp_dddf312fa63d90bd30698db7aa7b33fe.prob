@@ -1,0 +1,1 @@
+{"name":"Local: 797DivD","url":"c:\\Users\\karti\\Desktop\\cf & cc\\797DivD.cpp","tests":[{"id":1654618681972,"input":"4\n5 3\nBBWBW\n5 5\nBBWBW\n5 1\nBBWBW\n1 1\nW\n","output":"1\n2\n0\n1\n\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\797DivD.cpp","group":"local","local":true}
