@@ -37,7 +37,7 @@ int main(){
     //    }
        ll c=0;
        ll zero = count(v.begin(),v.end(),0);
-       for(ll i=1;i<n+2;i++){
+       for( i=1;i<n+2;i++){
         if(v[i]==0&&v[i]!=v[i-1])c++;
        }
        if(zero==n+2)cout<<0<<endl;
