@@ -1,0 +1,1 @@
+{"name":"Local: 131Div2","url":"c:\\Users\\karti\\Desktop\\cf & cc\\131Div2.cpp","tests":[{"id":1657291323920,"input":"3\n0 0\n0 0\n1 0\n0 1\n1 1\n1 1\n","output":"0\n1\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\131Div2.cpp","group":"local","local":true}

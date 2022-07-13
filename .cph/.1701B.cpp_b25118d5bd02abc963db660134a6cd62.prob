@@ -1,0 +1,1 @@
+{"name":"Local: 1701B","url":"c:\\Users\\karti\\Desktop\\cf & cc\\1701B.cpp","tests":[{"id":1657292547320,"input":"2\n2\n3\n","output":"2\n1 2\n3\n2 1 3\n"},{"id":1657292561063,"input":"1\n10","output":"2\n1 2 4 8 3 6 5 10 7 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\1701B.cpp","group":"local","local":true}

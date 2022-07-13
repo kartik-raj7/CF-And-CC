@@ -1,0 +1,1 @@
+{"name":"Local: 805DivC","url":"c:\\Users\\karti\\Desktop\\cf & cc\\805DivC.cpp","tests":[{"id":1657470128347,"input":"5\nabca\n2\nabca\n6\ncodeforces\n1\ncodeforces\n10\ncodeforces\n100","output":"aa\nabc\n\ncdc\ncodeforces"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\805DivC.cpp","group":"local","local":true}
