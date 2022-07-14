@@ -1,0 +1,1 @@
+{"name":"Local: 1594B","url":"c:\\Users\\karti\\Desktop\\cf & cc\\1594B.cpp","tests":[{"id":1657819257284,"input":"3\n3 4\n2 12\n105 564\n","output":"9\n12\n3595374\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\1594B.cpp","group":"local","local":true}
