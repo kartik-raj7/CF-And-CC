@@ -25,5 +25,23 @@ int main(){
     test{
     int n,x;
     cin>>n>>x;
-    
+    int arr[n];
+    loop(i,0,n){
+        cin>>arr[i];
+    }
+    int c=0;
+    int mini = arr[0];
+    int maxi = arr[0];
+    for(int i=1;i<n;i++){
+        int k = arr[i];
+        maxi = max(k,maxi);
+        mini = min(k,mini);
+        if(maxi-mini>2*x){
+            c++;
+            maxi = mini = arr[i];
+
+        }
+    }
+    cout<<c<<endl;
+    }
     }
