@@ -22,3 +22,11 @@
 #define ll long long
 #define loop(i,l,h) for(ll i=(l);i<(h);i++)
 using namespace std;
+int main(){
+    vector<pair<int,int>>v;
+    int x,y;
+    cin>>x>>y;
+    v[0].first = x;
+    v[0].second = y;
+
+}
