@@ -1,0 +1,1 @@
+{"name":"Local: overlapcirc","url":"c:\\Users\\karti\\Desktop\\cf & cc\\overlapcirc.cpp","tests":[{"id":1660025052562,"input":"3\n0 0 3\n2 0 3\n4 0 3","output":"2"},{"id":1660025616715,"input":"3\n0 0 3\n2 0 2\n8 0 2","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\overlapcirc.cpp","group":"local","local":true}
