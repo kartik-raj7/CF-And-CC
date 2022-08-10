@@ -34,6 +34,7 @@ int main(){
         cin>>k;
         arr[k]=i;
     }
+    int k = 0;
     for(int i=0;i<n;i++){
         int k;
         cin>>k;
