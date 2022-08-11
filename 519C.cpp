@@ -25,7 +25,7 @@ using namespace std;
 int solve(int a,int b){
     if(a==0||b==0)return 0;
     if(a+b<3)return 0;
-    else return 1+solve(a-2,b-1);
+    else return 1;
 }
 int main(){
     int xp;
@@ -36,8 +36,8 @@ int main(){
         counter = (xp+nb)/3;
     }
     // while(xp>=1&&nb>=1){
-        else if(xp>=nb&&xp>=2&&nb>=1){
-           counter=solve(xp,nb);
+        if(xp>=nb){
+           counter=1+solve(xp-2,nb-1);
         }
         else if(xp<=nb&&nb>=2&&xp>=1){
            counter+=solve(nb,xp);
