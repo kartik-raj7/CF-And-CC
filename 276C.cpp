@@ -21,7 +21,7 @@
 #define MOD 1000000007
 #define pn puts("NO");
 #define py puts("YES");
-#define test ll t; cin>>t; while(t--)
+#define test ll t; cin>>t;  while(t--)
 #define ll long long
 ll v[999999];
 #define loop(i,l,h) for(ll i=(l);i<=(h);i++)
