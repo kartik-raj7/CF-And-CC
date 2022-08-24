@@ -13,6 +13,7 @@
         "cmath": "cpp",
         "unordered_set": "cpp",
         "xtree": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "utility": "cpp"
     }
 }
