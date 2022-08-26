@@ -1,0 +1,1 @@
+{"name":"Local: 1375C","url":"c:\\Users\\karti\\Desktop\\cf & cc\\1375C.cpp","tests":[{"id":1661521941416,"input":"4\n3\n1 2 3\n4\n3 1 2 4\n3\n2 3 1\n6\n2 4 6 1 3 5\n","output":"YES\nYES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\cf & cc\\1375C.cpp","group":"local","local":true}
